@@ -8,7 +8,7 @@ namespace ADOEmployeePayroll
         {
             Console.WriteLine("Welcome to Employee Payroll Application using ADO.net");
             EmployeeRepository employeeRepository = new EmployeeRepository();
-            employeeRepository.GetSqlData();
+            employeeRepository.UpdateSalaryQuery();
         }
     }
 }
